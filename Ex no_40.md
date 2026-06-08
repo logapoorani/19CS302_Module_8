@@ -2,12 +2,12 @@
 
 Complete the function next_permutation which generates the permutations in the described order.
 
-## For example, s=[ab,bc,cd]. The six permutations in correct order are:
+## For example, s=[ab,bc,cd]. The six permautations in correct order are:
 
 ab bc cd
 ab cd bc
 bc ab cd
-bc cd ab
+bc cd aba
 cd ab bc
 cd bc ab
 Note: There may be two or more of the same string as elements of .
@@ -51,15 +51,11 @@ bc
 a bc bc
 bc a bc
 bc bc a
-
-
-
 # EX 40 C program to print each permutation as a list of space-separated strings on a single line.
-## DATE:23/04/2026
-## AIM:
+# DATE:23/04/2026
+# AIM:
 To write a C program to print each permutation as a list of space-separated strings on a single line.
-
-## Algorithm
+# Algorithm
 1.Start the program by reading the integer n and the array of strings from the user.
 
 2.Sort the array of strings to ensure lexicographical order.
@@ -69,8 +65,7 @@ To write a C program to print each permutation as a list of space-separated stri
 4.Print each permutation without duplicates by keeping track of previously printed permutations.
 
 5.End the program.
-
-## Program:
+# Program:
 ```
 /*
 C program to find the smallest among three numbers using Structure.
@@ -142,13 +137,10 @@ int main()
 }
 
 
-
 ```
-
-## Output:
-
-![image](https://github.com/user-attachments/assets/b3f22347-b4fc-4491-9710-da42da5101aa)
+# Output:
+<img width="1130" height="372" alt="image" src="https://github.com/user-attachments/assets/b1bd1da9-5b59-4aba-9a6f-9a89d820894a" />
 
 
-## Result:
+# Result:
 Thus the program was executed and the output was verified successfully.
