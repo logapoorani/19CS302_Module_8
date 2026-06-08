@@ -1,4 +1,3 @@
-
 # # Task
 
 # # Given a positive integer denoting , do the following:
@@ -21,14 +20,11 @@ If n>49 print Greater than 49.
 ## Sample Output
 
 forty one
-
-
 # EX 38 C program to print the lowercase English word corresponding to the number.
-## DATE:
-## AIM:
+# DATE:
+# AIM:
 To write a C program to print the lowercase English word corresponding to the number.
-
-## Algorithm
+# Algorithm
 1.Start the program and declare an integer variable to store input.
 
 2.Read the integer input from the user.
@@ -39,7 +35,7 @@ To write a C program to print the lowercase English word corresponding to the nu
 
 5.End the program.
 
-## Program:
+# Program:
 ```
 /*
 C program to find the smallest among three numbers using Structure.
@@ -74,15 +70,9 @@ int main()
 
     return 0;
 }
-
-
-
 ```
+# Output:
+<img width="296" height="73" alt="image" src="https://github.com/user-attachments/assets/61ca3a50-cf38-4944-98be-f5cb09abdec6" />
 
-## Output:
-
-![image](https://github.com/user-attachments/assets/50294e17-cffe-4725-8624-52bc55a10912)
-
-
-## Result:
+# Result:
 Thus the program was executed and the output was verified successfully.
