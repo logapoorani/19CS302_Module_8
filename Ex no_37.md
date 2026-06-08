@@ -1,4 +1,3 @@
-
 # # Hackerrank problem - 2
 
 Your task is to take two numbers of int data type, two numbers of float data type as input and output their sum:
@@ -25,89 +24,52 @@ The second line contains two floating point numbers.
 
 1 ≤ float variables ≤ 104
 
-## Output Format
+AIM:
 
-Print the sum and difference of both integers separated by a space on the first line, and the sum and difference of both float (scaled to 1 decimal place) separated by a space on the second line.
+To write a program to print the sum of the integers in the array. 
+ 
+ 
+ALGORITHM: 
+1. Start. 
+2. Define a variables. 
+3. Write a program to print the sum of the integers in the array. 
+4. Read the value using scanf. 
+5. Ask the user to make an input. 
+6. Print out the answer. 
+7. End. 
+ 
+PROGRAM: 
 
-Sample Input 
+#include<stdio.h>
 
-10 4
+int main() 
 
-4.0 2.0
+{ 
 
-Sample Output 
+ SAVEETHA ENGINEERING COLLEGE  
+int i,n,sum=0,arr[100]; 
+scanf("%d",&n); 
+{ 
 
-14 6
+for(i=0;i<n;i++)
 
-6.0 2.0
+scanf("%d",&arr[i]);
 
-Explanation
+for(i=0;i<n;i++) 
 
-When we sum the integers 10 and 4, we get the integer 14. When we subtract the second number 4 from the first number 10, we get 6 as their difference.
+sum=sum+arr[i]; 
 
-When we sum the floating-point numbers 4.0 and 2.0, we get 6.0. When we subtract the second number 2.0 from the first number 4.0, we get 2.0 as their difference.
+i++; 
 
+}printf("%d",sum); 
 
+} 
 
-# EX 31 C program to find the smallest among three numbers using Structure.
-## DATE:
-## AIM:
-To write a C program to find the smallest among three numbers using Structure.
+OUTPUT:
 
-## Algorithm
-1.Start the program and define a structure with three integer fields.
+![image](https://github.com/user-attachments/assets/80770b52-e499-4bcf-b93b-f09f9be5eae8)
 
-2.Declare a structure variable to store the three numbers.
-
-3.Read the values of the three numbers from the user.
-
-4.Compare the three numbers to find the smallest.
-
-5.Display the smallest number and end the program. 
-
-## Program:
-```
-/*
-C program to find the smallest among three numbers using Structure.
-*/
-#include <stdio.h>
-
-struct Numbers
-{
-    int num1, num2, num3;
-};
-
-int main()
-{
-    struct Numbers n;
-
-    printf("Enter three numbers: ");
-    scanf("%d %d %d", &n.num1, &n.num2, &n.num3);
-
-    int smallest = n.num1;
-
-    if(n.num2 < smallest)
-    {
-        smallest = n.num2;
-    }
-
-    if(n.num3 < smallest)
-    {
-        smallest = n.num3;
-    }
-
-    printf("The smallest number is: %d\n", smallest);
-
-    return 0;
-}
-
-
-```
-
-## Output:
-
-![image](https://github.com/user-attachments/assets/d887c1cc-83cb-4eee-aa33-50eed14d157c)
-
-
-## Result:
-Thus the program was executed and the output was verified successfully.
+ 
+ 
+RESULT: 
+Thus, the program is executed and verified successfully.
