@@ -1,4 +1,3 @@
-
 # # #Task - Hackerrank Problem
 
 This challenge requires you to print Hello Saveetha! on a single line, and then print the already provided input string to stdout. If you are not familiar with C, you may want to read about the printf() command.
@@ -9,50 +8,38 @@ Saveetha
 
 The required output is: Hello, Saveetha! C Programming
 
+AIM: 
+To write a C program to print the given string. 
+ 
+ALGORITHM: 
+1. Start. 
+2. Define a variables. 
+3. Write a program to print the given string. 
+4. Read the value using scanf. 
+5. Ask the user to make an input. 
+6. Print out the answer. 
+7. End. 
+ 
+PROGRAM:
 
-# EX 36 C program to to print Hello Saveetha! on a single line, and then print the already provided input string to stdout.
-## DATE:
-## AIM:
-To write a C program to print Hello Saveetha! on a single line, and then print the already provided input string to stdout.
+#include<stdio.h> 
 
-## Algorithm
-1.Start the program and declare a character array to store the input string.
+int main() 
 
-2.Use gets() or fgets() to read a line of input from the user.
+{ 
+char a[20];
 
-3.Print "Hello Saveetha!" on the first line.
+scanf("%[^\n]",a); 
 
-4.Print the user-provided input string on the next line.
+printf("Hello, Saveetha!\n%s",a); 
 
-5.End the program.
+} 
+ 
+ 
+OUTPUT:
 
-## Program:
-```
-/*
-C program to find the smallest among three numbers using Structure.
-*/
-#include <stdio.h>
+![image](https://github.com/user-attachments/assets/bc1ce7d4-bec1-45c3-9439-7c376082ecee)
 
-int main()
-{
-    char input[100];
-
-    fgets(input, sizeof(input), stdin);
-
-    printf("Hello Saveetha!\n");
-    printf("%s", input);
-
-    return 0;
-}
-
-
-
-```
-
-## Output:
-
-![image](https://github.com/user-attachments/assets/0c727c49-7a16-472a-9493-09dc98634d16)
-
-
-## Result:
-Thus the program was executed and the output was verified successfully.
+ 
+RESULT: 
+Thus, the program is executed and verified successfully.
